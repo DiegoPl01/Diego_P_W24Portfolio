@@ -25,6 +25,8 @@ It has my information, personal highlights, resume and some of my favorites prog
 I have loved every second of my path with programming and I hope to keep learning and getting in love
 with it every day. 
 
+You can see it online and hosted free on https://diegoplata-portfolio.vercel.app/
+
 Thank you, 
 Diego Plata.
 
