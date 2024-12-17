@@ -3,8 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
-  AiFillGithub,
-  AiFillInstagram,
+  AiFillGithub
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -15,39 +14,39 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="blue"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I believe… 🤷‍♂️
+              My road with programming hasn't been easy, but 
+              I have tried and done my best always...
               <br />
-              <br />I am fluent in classics like
+              <br />I have worked with classics like
               <i>
-                <b className="purple"> Python, Javascript and Java. </b>
+                <b className="blue"> Python, Javascript and MongoDB. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new&nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="blue">Web Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">
+                <b className="blue">
                   Machine Learning.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="blue">Node.js</b> and
               <i>
-                <b className="purple">
+                <b className="blue">
                   {" "}
                   Modern Javascript Libraries and Frameworks
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Angular.js</b>
+                <b className="blue"> React.js and Angular.js</b>
               </i>
             </p>
           </Col>
@@ -61,9 +60,20 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="blue">connect </span>with me
             </p>
             <ul className="home-about-social-links">
+            <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/diego-plata-4b0aa3252/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              
               <li className="social-icons">
                 <a
                   href="https://github.com/DiegoPl01"
@@ -74,17 +84,9 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/diego-plata-4b0aa3252/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
+             
+              {/* If I wish to add Instagram or any other social account */}
+              {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/diegopl_10/"
                   target="_blank"
@@ -93,7 +95,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>

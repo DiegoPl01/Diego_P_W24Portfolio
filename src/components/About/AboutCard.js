@@ -8,16 +8,17 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi, I am <span className="purple">Diego Plata </span>
-            from <span className="purple"> Villavo, Colombia.</span>
+            Hi, I am <span className="blue">Diego Plata </span>
+            from Villavo, Colombia.
             <br />
-            I am currently an international student at George Brown College.
             <br />
-            I will have completed an <span className="purple">associate degree (AD)</span> in 
-            <span className="purple"> Computer Programming & Analysis</span> by end of 
-            <span className="purple"> April 2024</span>. And hopefully to attend the prestigious
-            <span className="purple"> University of Toronto (UoF) </span> 
-            by <span className="purple"> 2030</span>.
+            I recently majored & graduated in 
+            <span className="blue"> Computer Programming & Analysis </span>
+            with an Advanced Diploma from George Brown College.
+            <br />
+            <br />
+            Currently <span className="blue">seeking</span> the 
+            opportunity of joining a team where I can learn, grow & work.
             <br />
             <br />
             Apart from coding, some other activities that I like to do!
@@ -25,19 +26,18 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Videogames
+              <ImPointRight /> Exercise
             </li>
             <li className="about-activity">
               <ImPointRight /> Trying new food
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching series and movies
+              <ImPointRight /> Playing sports
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Everyday it gets easier, but you gotta do it everyday. That's the hard part"{" "}
-            {/* In the grand scheme of things, we are just tiny specs that will one day be forgotten. So it doesn't matter what we did or how we'll be remembered. The only thing that matters is right now. This moment and what you do with it. */}
           </p>
           <footer className="blockquote-footer">Diego Plata</footer>
         </blockquote>

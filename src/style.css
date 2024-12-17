@@ -15,7 +15,12 @@ html {
 }
 
 .purple {
-  color: var(--imp-text-color) !important;
+  color: var(purple) !important;
+}
+
+.blue {
+  /* color: var(--imp-text-color) !important; */
+  color: blue;
 }
 
 button:focus {

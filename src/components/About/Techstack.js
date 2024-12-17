@@ -10,25 +10,27 @@ import {
   DiPython,
   DiGit,
   DiJava,
-  DiSwift,
   DiAngularSimple
 } from "react-icons/di";
 import {
-  SiPostgresql
+  SiPostgresql,
+  SiMysql,
+  SiDocker
 } from "react-icons/si";
+import { TiHtml5 } from "react-icons/ti";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiAngularSimple />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiSwift />
-      </Col>
+        <DiPython />
+      </Col>     
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
+      </Col> 
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
@@ -36,19 +38,16 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <TiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
+        <SiMysql />
+      </Col> 
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiDocker />
       </Col>
     </Row>
   );
