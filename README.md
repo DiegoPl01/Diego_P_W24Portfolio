@@ -1,5 +1,5 @@
 <h2 align="center">
-  Portfolio Website - v1.0<br/>
+  Portfolio Website <br/>
 </h2>
 <!-- <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
@@ -14,6 +14,20 @@
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
 
 </center>
+
+# Personal Portfolio
+
+Hi, I hope you are doing well.
+
+For whomever it is reading this, on this repository you will find my personal portfolio.
+I have worked day and night on this project and I'm proud of sharing the results. 
+It has my information, personal highlights, resume and some of my favorites programming projects.
+I have loved every second of my path with programming and I hope to keep learning and getting in love
+with it every day. 
+
+Thank you, 
+Diego Plata.
+
 
 ## Built With
 
