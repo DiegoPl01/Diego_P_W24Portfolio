@@ -8,12 +8,9 @@ import {
   DiNodejs,
   DiMongodb,
   DiPython,
-  DiGit,
   DiJava,
-  DiAngularSimple
 } from "react-icons/di";
 import {
-  SiPostgresql,
   SiMysql,
   SiDocker
 } from "react-icons/si";
