@@ -65,7 +65,7 @@ function Home2() {
             <ul className="home-about-social-links">
             <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/diego-plata-4b0aa3252/"
+                  href="https://www.linkedin.com/in/diego-plata-ca/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
