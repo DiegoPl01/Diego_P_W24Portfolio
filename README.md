@@ -25,7 +25,8 @@ It has my information, personal highlights, resume and some of my favorites prog
 I have loved every second of my path with programming and I hope to keep learning and getting in love
 with it every day. 
 
-You can see it online and hosted free on https://diegoplata-portfolio.vercel.app/
+You can see it online and hosted for free on the vercel platform https://diegoplata-portfolio.vercel.app/ or
+You can also see it online and hosted for free on the netlify platform https://diegoplata-portfolio.netlify.app/
 
 Thank you, 
 Diego Plata.
@@ -35,14 +36,19 @@ Diego Plata.
 
 My personal portfolio features some of my github projects as well as my resume and technical skills.<br/>
 
-This project was built using these technologies.
+This project was built using these technologies (And a few more):
 
-- React.js
 - Javascript
+- Typescript
+- React.js
 - Node.js
 - Express.js
-- CSS3
+- HTML/CSS3
+- JSON/XML
 - VsCode
+- Git
+- Bash Scripting
+- CI/CD Pipelines
 
 ## Features
 

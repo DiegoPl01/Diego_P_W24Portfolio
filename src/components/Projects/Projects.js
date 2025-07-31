@@ -27,7 +27,7 @@ function Projects() {
               imgPath={resume}
               isBlog={false}
               title="AI Resume Builder"
-              description="Job posting website & resume builder integrated with AI built with Typescript, Tailwind CSS, MongoDB & Docker. Leveraged OpenAI's API to create ATS-optimized resumes and suggest best job opportunities based of compatibility."
+              description="Job posting website & resume builder integrated with AI built with OpenAI API's, Typescript, Tailwind CSS, MongoDB & Docker (and some more). Leveraged OpenAI's API to create ATS-optimized resumes and suggest best job opportunities based of compatibility."
               ghLink="https://github.com/jayden-n/jotrack"
               demoLink=""
             />
